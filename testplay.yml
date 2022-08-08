@@ -1,0 +1,6 @@
+---
+- name: sample play book for ping
+  host: all
+  become: true
+  tasks:
+     - user: name = sidvitha chowdary
